@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "YOUR_API_KEY",
+  authDomain: "petinformationmanagercrud.firebaseapp.com",
+  databaseURL: "https://petinformationmanagercrud-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "petinformationmanagercrud",
+  storageBucket: "petinformationmanagercrud.firebasestorage.app",
+  messagingSenderId: "538044662477",
+  appId: "1:538044662477:web:c3c9c84b119b1b57955f84"
 };
 
 const app = initializeApp(firebaseConfig);
