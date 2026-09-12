@@ -100,7 +100,7 @@ jobs:
       # ----------------------------------------------------------
       - name: Rename APK
         run: |
-          cp android/app/build/outputs/apk/debug/app-debug.apk PetInformationManager.apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk Pet Information Manager.apk
 
 
       # ----------------------------------------------------------
@@ -109,7 +109,7 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: PetInformationManager-APK
-          path: PetInformationManager.apk
+          name: Pet Information Manager-APK
+          path: Pet Information Manager.apk
           if-no-files-found: error
           retention-days: 30
